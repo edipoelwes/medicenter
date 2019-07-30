@@ -202,3 +202,25 @@ article .news_resume{
     text-align: justify;
     margin-bottom: 30px;
 }
+
+aside .quadrado img{
+    width: 100%;
+    height: auto;
+    min-width: 60px;
+    margin-bottom: 20px;
+}
+
+aside{
+    flex: 1;
+    min-width: 120px;
+}
+.q1,
+.q3,
+.q5{
+    margin-right: 15px;
+}
+.q2,
+.q4,
+.q6{
+    margin-left: 15px;
+}
