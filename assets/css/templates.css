@@ -224,3 +224,70 @@ aside{
 .q6{
     margin-left: 15px;
 }
+.icone{
+    display: flex;
+    width: 100%;
+}
+.icone_int img{
+    width: 30px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+}
+.icone_int span{
+    margin-top: 30px;
+    float: left;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+
+}
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: #fff;
+}
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+    color: #fff;
+}
+.footer_areaitem{
+    flex: 1;
+}
+.flexColumn{
+    flex-direction: column;
+}
+footer .widget_title_text{
+    color: #fff;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
